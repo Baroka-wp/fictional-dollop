@@ -301,12 +301,7 @@ def documentation():
         }
     })
 
-# Handler pour Vercel
-def handler(request):
-    return app(request.environ, start_response)
-
-def start_response(status, headers):
-    pass
+# Export pour Vercel
 
 if __name__ == '__main__':
     import os
