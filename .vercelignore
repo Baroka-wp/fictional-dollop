@@ -1,0 +1,58 @@
+# Fichiers à ignorer lors du déploiement Vercel
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Fichiers de test
+test_*.py
+*_test.py
+exemple_*.py
+demo_*.py
+auto_test_*.py
+simple_test.py
+check_*.py
+
+# Fichiers de documentation
+*.md
+docs/
+examples/
+
+# Fichiers temporaires
+*.svg
+*.tmp
+*.temp
+
+# Fichiers de configuration locale
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
